@@ -1,22 +1,27 @@
 {
-  "name": "react-javascript",
+  "name": "indian-immigrants-italy-news",
   "version": "1.0.0",
   "type": "module",
-  "description": "React TypeScript on Replit, using Vite bundler",
+  "description": "News update channel for Indian Immigrants in Italy",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
   },
-  "keywords": [],
+  "keywords": ["react", "news", "indian", "immigrants", "italy"],
   "author": "",
   "license": "ISC",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "firebase": "^9.22.0",
+    "axios": "^1.4.0",
+    "react-router-dom": "^6.11.2"
+  },
   "devDependencies": {
     "@types/react": "^18.2.37",
     "@types/react-dom": "^18.2.15",
     "@vitejs/plugin-react": "^4.2.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
     "typescript": "^5.2.2",
     "vite": "^5.0.0"
   }
